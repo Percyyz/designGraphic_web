@@ -107,3 +107,34 @@ nav a:hover{
     background: linear-gradient(to bottom, #a7f3d0, #ecfdf5);
     height:100vh;
 }
+
+/* estilo para footer */
+.footer {
+  background-color: #1f2937;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  color: #a7f3d0;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #34d399;
+}
