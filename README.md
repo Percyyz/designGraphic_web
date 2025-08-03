@@ -17,8 +17,8 @@ Desarrollar una página web estática responsiva para evaluar habilidades en HTM
 
 | **ID** | **Requisito** | **Checklist** |  
 |--------|--------------|---------------|  
-| RNF-001 | Diseño responsivo (adaptable a móviles, tablets y desktop). | ☐ |  
-| RNF-002 | Uso de CSS Flexbox o Grid para el layout. | ☐ |  
+| RNF-001 | Diseño responsivo (adaptable a móviles, tablets y desktop). | [x] |  
+| RNF-002 | Uso de CSS Flexbox o Grid para el layout. | [x] |  
 | RNF-003 | Estilos coherentes (fuentes, colores, espaciados). | [x] |  
 | RNF-004 | Código bien indentado y comentado (opcional). | [x] |    
 ---  

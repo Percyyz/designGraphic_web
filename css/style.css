@@ -138,3 +138,98 @@ nav a:hover{
 .social-links a:hover {
   color: #34d399;
 }
+
+/* diseño responsivo pra tablets estre 769px y 1024px */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .principal {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .uno, .tres {
+    display: block;
+    }
+
+    .dos {
+    display: none;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav {
+        gap: 15px;
+        font-size: 13px;
+        padding-right: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #Inicio p, #Inicio h2 {
+        margin-left: 0;
+        padding: 0 1rem;
+        text-align: center;
+    }
+    #Servicios, #Contacto {
+        padding-top: 350px;
+    }
+}
+
+/* diseño responsivo para moviles asta 768px */
+@media screen and (max-width: 768px) {
+    .principal {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .uno {
+    display: block;
+    width: 50%;
+    max-width: 50%;
+    margin: 0 auto;
+    }
+
+    .dos, .tres {
+    display: none;
+    }
+
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-right: 0;
+    }
+
+    #Inicio {
+        padding: 100px 20px 40px;
+        flex-direction: column;
+    }
+
+    #Inicio p, #Inicio h2 {
+        margin-left: 0;
+        padding: 0 1rem;
+        text-align: center;
+    }
+    #Servicios {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+    }
+
+    #Servicios p {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+}
