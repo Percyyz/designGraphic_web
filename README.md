@@ -19,16 +19,16 @@ Desarrollar una página web estática responsiva para evaluar habilidades en HTM
 |--------|--------------|---------------|  
 | RNF-001 | Diseño responsivo (adaptable a móviles, tablets y desktop). | ☐ |  
 | RNF-002 | Uso de CSS Flexbox o Grid para el layout. | ☐ |  
-| RNF-003 | Estilos coherentes (fuentes, colores, espaciados). | ☐ |  
-| RNF-004 | Código bien indentado y comentado (opcional). | ☐ |    
+| RNF-003 | Estilos coherentes (fuentes, colores, espaciados). | [x] |  
+| RNF-004 | Código bien indentado y comentado (opcional). | [x] |    
 ---  
 ## **Puntos Extra (Opcional)**  
 
 | **ID** | **Requisito** | **Checklist** |  
 |--------|--------------|---------------|  
-| EX-001 | Desarrollo con Tailwind CSS en lugar de CSS puro. | ☐ |  
-| EX-002 | Efectos hover en botones o tarjetas. | ☐ |  
-| EX-003 | Animaciones simples (transiciones CSS o Tailwind). | ☐ |  
+| EX-001 | Desarrollo con Tailwind CSS en lugar de CSS puro. | [x] |  
+| EX-002 | Efectos hover en botones o tarjetas. | [x] |  
+| EX-003 | Animaciones simples (transiciones CSS o Tailwind). | [x] |  
 ---  
 **Instrucciones:**  
 - Los alumnos deben marcar los ítems completados en el checklist.  
