@@ -101,3 +101,9 @@ nav a:hover{
 .zoom:hover {
   transform: scale(1.1);
 }
+
+/* estilo para contactos */
+#Contacto {
+    background: linear-gradient(to bottom, #a7f3d0, #ecfdf5);
+    height:100vh;
+}

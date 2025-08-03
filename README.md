@@ -10,7 +10,7 @@ Desarrollar una página web estática responsiva para evaluar habilidades en HTM
 | RF-002 | Barra de navegación con al menos 3 secciones (Inicio, Servicios, Contacto). | [x] |  
 | RF-003 | Sección "Inicio" con un título, imagen y párrafo descriptivo. | [x] |  
 | RF-004 | Sección "Servicios" con al menos 3 tarjetas (cards) que muestren servicios ficticios. | [x] |  
-| RF-005 | Sección "Contacto" con un formulario (nombre, email, mensaje y botón de enviar). | ☐ |  
+| RF-005 | Sección "Contacto" con un formulario (nombre, email, mensaje y botón de enviar). | [x] |  
 | RF-006 | Footer con información de copyright y enlaces a redes sociales (simulados). | ☐ |  
 ---  
 ## **Requerimientos No Funcionales**  
