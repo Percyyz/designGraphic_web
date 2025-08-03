@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #0ea5e9 ;
+    height: 60px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+header h1{
+    font-size: 25px;
+    color: #2c3e50;
+    font-family:super senior;
+}
+nav{
+    display: flex;
+    gap: 25px;
+    font-family: 'open sans', sans-serif;
+    padding-right: 40px;
+    font-size: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: inherit;
+}
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
