@@ -58,3 +58,46 @@ nav a:hover{
     max-width: 500px;             
     margin-left: 200px;
 }
+
+/* estilo de la seccion servicios */
+#Servicios {
+    background: linear-gradient(to bottom, #a7f3d0, #ecfdf5);
+    height:100vh;
+}
+.uno{
+    width: 25%;
+    height: 330px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.uno:hover {
+    transform: translateY(-5px);
+}
+.dos{
+    width: 30%;
+    height: 420px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.dos:hover {
+    transform: translateY(-5px);
+}
+.tres{
+    width: 25%;
+    height: 330px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.tres:hover {
+    transform: translateY(-5px);
+}
+.zoom{
+  transition: transform 0.3s ease;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
