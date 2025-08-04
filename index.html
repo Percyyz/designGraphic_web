@@ -10,7 +10,8 @@
 <body>
     <header>
         <h1>🎨URBAN PIXEL</h1>
-        <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <nav id="nav">
             <a href="#Inicio">Inicio</a>
             <a href="#Servicios">Servicios</a>
             <a href="#Contacto">Contacto</a>
@@ -109,4 +110,9 @@
         </div>
     </footer>
 </body>
+<script>
+    function toggleMenu() {
+    document.getElementById('nav').classList.toggle('show');
+  }
+</script>
 </html>
